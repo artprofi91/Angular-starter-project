@@ -15,6 +15,11 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@services/*": ["app/_services/*"],
+      "@shared/*": ["app/_shared/*"],
+      "@models/*": ["app/_models/*"]
+    }
   }
 }
